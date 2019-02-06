@@ -12,9 +12,18 @@
 		6F6AEAC2220AA15D00D68A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6AEAC0220AA15D00D68A3B /* Main.storyboard */; };
 		6F6AEAC4220AA16F00D68A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6AEAC3220AA16F00D68A3B /* Assets.xcassets */; };
 		6F6AEAC7220AA16F00D68A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6AEAC5220AA16F00D68A3B /* LaunchScreen.storyboard */; };
+		6F6AEACF220AA30000D68A3B /* AlertActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AEACE220AA30000D68A3B /* AlertActionSheet.swift */; };
+		6F6AEAD3220AABB500D68A3B /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AEAD2220AABB500D68A3B /* Extension+ViewController.swift */; };
+		6F6AEAD5220AAC4B00D68A3B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AEAD4220AAC4B00D68A3B /* Constants.swift */; };
+		6F6AEAD7220AAE6800D68A3B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6AEAD6220AAE6800D68A3B /* CoreTelephony.framework */; };
+		6F6AEAD9220AAE7000D68A3B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6AEAD8220AAE7000D68A3B /* SystemConfiguration.framework */; };
+		6F6AEADB220AAE9A00D68A3B /* ViewControllerFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AEADA220AAE9A00D68A3B /* ViewControllerFuncs.swift */; };
+		6F6AEADD220AAFA300D68A3B /* AlertClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AEADC220AAFA300D68A3B /* AlertClass.swift */; };
+		DB367A1A35345702A68AF9FD /* Pods_MultiPayIntegraionTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9E619517EFDEB6EC6BBF94 /* Pods_MultiPayIntegraionTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E9E619517EFDEB6EC6BBF94 /* Pods_MultiPayIntegraionTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiPayIntegraionTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6AEAB9220AA15D00D68A3B /* MultiPayIntegraionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPayIntegraionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6AEABC220AA15D00D68A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F6AEABE220AA15D00D68A3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,16 @@
 		6F6AEAC3220AA16F00D68A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F6AEAC6220AA16F00D68A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F6AEAC8220AA16F00D68A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6AEACE220AA30000D68A3B /* AlertActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionSheet.swift; sourceTree = "<group>"; };
+		6F6AEAD1220AAAC700D68A3B /* MultiPayIntegraionTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiPayIntegraionTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F6AEAD2220AABB500D68A3B /* Extension+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
+		6F6AEAD4220AAC4B00D68A3B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F6AEAD6220AAE6800D68A3B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6F6AEAD8220AAE7000D68A3B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F6AEADA220AAE9A00D68A3B /* ViewControllerFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFuncs.swift; sourceTree = "<group>"; };
+		6F6AEADC220AAFA300D68A3B /* AlertClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertClass.swift; sourceTree = "<group>"; };
+		89573C76C2ABB264445E4242 /* Pods-MultiPayIntegraionTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiPayIntegraionTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiPayIntegraionTest/Pods-MultiPayIntegraionTest.release.xcconfig"; sourceTree = "<group>"; };
+		89ED2D83FCEB01CC2FFE8B91 /* Pods-MultiPayIntegraionTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiPayIntegraionTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiPayIntegraionTest/Pods-MultiPayIntegraionTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6AEAD9220AAE7000D68A3B /* SystemConfiguration.framework in Frameworks */,
+				6F6AEAD7220AAE6800D68A3B /* CoreTelephony.framework in Frameworks */,
+				DB367A1A35345702A68AF9FD /* Pods_MultiPayIntegraionTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56C2883D9521A46AE93E72F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89ED2D83FCEB01CC2FFE8B91 /* Pods-MultiPayIntegraionTest.debug.xcconfig */,
+				89573C76C2ABB264445E4242 /* Pods-MultiPayIntegraionTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6F6AEAB0220AA15C00D68A3B = {
 			isa = PBXGroup;
 			children = (
 				6F6AEABB220AA15D00D68A3B /* MultiPayIntegraionTest */,
 				6F6AEABA220AA15D00D68A3B /* Products */,
+				56C2883D9521A46AE93E72F1 /* Pods */,
+				74296E382E4E2EEDB6CB35F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +88,29 @@
 			isa = PBXGroup;
 			children = (
 				6F6AEABC220AA15D00D68A3B /* AppDelegate.swift */,
+				6F6AEAD4220AAC4B00D68A3B /* Constants.swift */,
+				6F6AEADC220AAFA300D68A3B /* AlertClass.swift */,
+				6F6AEACE220AA30000D68A3B /* AlertActionSheet.swift */,
 				6F6AEABE220AA15D00D68A3B /* ViewController.swift */,
+				6F6AEADA220AAE9A00D68A3B /* ViewControllerFuncs.swift */,
+				6F6AEAD2220AABB500D68A3B /* Extension+ViewController.swift */,
 				6F6AEAC0220AA15D00D68A3B /* Main.storyboard */,
 				6F6AEAC3220AA16F00D68A3B /* Assets.xcassets */,
 				6F6AEAC5220AA16F00D68A3B /* LaunchScreen.storyboard */,
 				6F6AEAC8220AA16F00D68A3B /* Info.plist */,
+				6F6AEAD1220AAAC700D68A3B /* MultiPayIntegraionTest-Bridging-Header.h */,
 			);
 			path = MultiPayIntegraionTest;
+			sourceTree = "<group>";
+		};
+		74296E382E4E2EEDB6CB35F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F6AEAD8220AAE7000D68A3B /* SystemConfiguration.framework */,
+				6F6AEAD6220AAE6800D68A3B /* CoreTelephony.framework */,
+				6E9E619517EFDEB6EC6BBF94 /* Pods_MultiPayIntegraionTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F6AEACB220AA16F00D68A3B /* Build configuration list for PBXNativeTarget "MultiPayIntegraionTest" */;
 			buildPhases = (
+				C1A4869B98DDB5CA1215B0DA /* [CP] Check Pods Manifest.lock */,
 				6F6AEAB5220AA15D00D68A3B /* Sources */,
 				6F6AEAB6220AA15D00D68A3B /* Frameworks */,
 				6F6AEAB7220AA15D00D68A3B /* Resources */,
+				BCEC5796162601C6396B143A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +181,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BCEC5796162601C6396B143A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MultiPayIntegraionTest/Pods-MultiPayIntegraionTest-frameworks.sh",
+				"${PODS_ROOT}/razorpay-pod/Pod/Razorpay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Razorpay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiPayIntegraionTest/Pods-MultiPayIntegraionTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A4869B98DDB5CA1215B0DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiPayIntegraionTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F6AEAB5220AA15D00D68A3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6AEADD220AAFA300D68A3B /* AlertClass.swift in Sources */,
+				6F6AEAD5220AAC4B00D68A3B /* Constants.swift in Sources */,
+				6F6AEAD3220AABB500D68A3B /* Extension+ViewController.swift in Sources */,
+				6F6AEACF220AA30000D68A3B /* AlertActionSheet.swift in Sources */,
 				6F6AEABF220AA15D00D68A3B /* ViewController.swift in Sources */,
+				6F6AEADB220AAE9A00D68A3B /* ViewControllerFuncs.swift in Sources */,
 				6F6AEABD220AA15D00D68A3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +375,7 @@
 		};
 		6F6AEACC220AA16F00D68A3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89ED2D83FCEB01CC2FFE8B91 /* Pods-MultiPayIntegraionTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +387,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.MultiPayIntegraionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiPayIntegraionTest/MultiPayIntegraionTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +395,7 @@
 		};
 		6F6AEACD220AA16F00D68A3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89573C76C2ABB264445E4242 /* Pods-MultiPayIntegraionTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +407,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.MultiPayIntegraionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiPayIntegraionTest/MultiPayIntegraionTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
