@@ -89,11 +89,8 @@
 			children = (
 				6F6AEABC220AA15D00D68A3B /* AppDelegate.swift */,
 				6F6AEAD4220AAC4B00D68A3B /* Constants.swift */,
-				6F6AEADC220AAFA300D68A3B /* AlertClass.swift */,
-				6F6AEACE220AA30000D68A3B /* AlertActionSheet.swift */,
-				6F6AEABE220AA15D00D68A3B /* ViewController.swift */,
-				6F6AEADA220AAE9A00D68A3B /* ViewControllerFuncs.swift */,
-				6F6AEAD2220AABB500D68A3B /* Extension+ViewController.swift */,
+				6F6AEADE220AC17200D68A3B /* AlertViewActions */,
+				6F6AEADF220AC19C00D68A3B /* ViewController */,
 				6F6AEAC0220AA15D00D68A3B /* Main.storyboard */,
 				6F6AEAC3220AA16F00D68A3B /* Assets.xcassets */,
 				6F6AEAC5220AA16F00D68A3B /* LaunchScreen.storyboard */,
@@ -101,6 +98,25 @@
 				6F6AEAD1220AAAC700D68A3B /* MultiPayIntegraionTest-Bridging-Header.h */,
 			);
 			path = MultiPayIntegraionTest;
+			sourceTree = "<group>";
+		};
+		6F6AEADE220AC17200D68A3B /* AlertViewActions */ = {
+			isa = PBXGroup;
+			children = (
+				6F6AEADC220AAFA300D68A3B /* AlertClass.swift */,
+				6F6AEACE220AA30000D68A3B /* AlertActionSheet.swift */,
+			);
+			path = AlertViewActions;
+			sourceTree = "<group>";
+		};
+		6F6AEADF220AC19C00D68A3B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F6AEABE220AA15D00D68A3B /* ViewController.swift */,
+				6F6AEADA220AAE9A00D68A3B /* ViewControllerFuncs.swift */,
+				6F6AEAD2220AABB500D68A3B /* Extension+ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		74296E382E4E2EEDB6CB35F3 /* Frameworks */ = {
